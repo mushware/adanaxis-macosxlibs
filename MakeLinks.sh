@@ -11,16 +11,19 @@
 ##############################################################################
 
 #
-# $Id$
-# $Log$
+# $Id: MakeLinks.sh,v 1.1 2002/07/01 13:42:59 southa Exp $
+# $Log: MakeLinks.sh,v $
+# Revision 1.1  2002/07/01 13:42:59  southa
+# MacOS X installer automation
+#
 #
 
 # Remake the links that CVS loses
 
 ln -s libSDL-1.2.0.0.5.dylib libSDL-1.2.0.dylib
-ln -s libSDL_mixer-1.2.0.2.3.dylib libSDL_mixer-1.2.0.dylib
-ln -s libogg.0.3.0.dylib libogg.0.dylib
+ln -s libSDL_mixer-1.2.0.2.2.dylib libSDL_mixer-1.2.0.dylib
+ln -s libogg.0.4.0.dylib libogg.0.dylib
 ln -s libsmpeg-0.4.0.1.3.dylib libsmpeg-0.4.0.dylib
-ln -s libvorbis.0.1.0.dylib libvorbis.0.dylib
-ln -s libvorbisenc.0.1.0.dylib libvorbisenc.0.dylib
-ln -s libvorbisfile.0.2.0.dylib libvorbisfile.0.dylib
+ln -s libvorbis.0.2.0.dylib libvorbis.0.dylib
+ln -s libvorbisenc.2.0.0.dylib libvorbisenc.0.dylib
+ln -s libvorbisfile.3.0.0.dylib libvorbisfile.0.dylib
