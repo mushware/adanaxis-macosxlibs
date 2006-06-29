@@ -11,8 +11,11 @@
 ##############################################################################
 
 #
-# $Id: MakeLinks.sh,v 1.4 2003/12/28 17:37:04 southa Exp $
+# $Id: MakeLinks.sh,v 1.5 2005/05/18 21:16:16 southa Exp $
 # $Log: MakeLinks.sh,v $
+# Revision 1.5  2005/05/18 21:16:16  southa
+# SDL 1.2.8 and SDL_mixer 1.2.6
+#
 # Revision 1.4  2003/12/28 17:37:04  southa
 # Rebuilt libraries for gcc 3.3 and removed unnecessary
 #
@@ -29,9 +32,7 @@
 
 # Remake the links that CVS loses
 
-ln -s libtiff.3.6.1.dylib libtiff.dylib
-ln -s libSDL-1.2.0.7.1.dylib libSDL-1.2.0.dylib
-ln -s libSDL_mixer-1.2.0.2.4.dylib libSDL_mixer-1.2.0.dylib
-ln -s libsmpeg-0.4.0.1.3.dylib libsmpeg-0.4.0.dylib
+ln -s libSDL-1.2.0.11.0.dylib libSDL-1.2.0.dylib
+ln -s libSDL_mixer-1.2.0.2.5.dylib libSDL_mixer-1.2.0.dylib
 
 
